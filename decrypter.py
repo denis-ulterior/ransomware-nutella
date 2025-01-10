@@ -1,3 +1,4 @@
+#nota pessoal: odeio python, muito ruim, mesmo....
 import os
 import pyaes
 import hashlib
