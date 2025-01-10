@@ -4,7 +4,7 @@ import pyaes
 import hashlib
 
 # Definir a senha
-senha = "Sua senha aqui"
+senha = input("Insira a senha: ")
 
 # Gerar o hash MD5 e pegar os primeiros 16 caracteres
 hash_md5 = hashlib.md5(senha.encode()).hexdigest()
